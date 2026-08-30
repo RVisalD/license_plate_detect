@@ -1,0 +1,8 @@
+path: /Users/mac/Documents/projects/python/license-plate/images
+
+train: train
+val: val
+test: test
+
+names:
+  0: license_plate

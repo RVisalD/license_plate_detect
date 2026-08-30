@@ -1,0 +1,19 @@
+# Python virtual environment
+plate_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Image Folder
+images/
+
+# License Plate Detector Weights
+runs/
