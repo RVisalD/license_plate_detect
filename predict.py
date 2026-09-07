@@ -1,9 +1,9 @@
 from ultralytics import YOLO
 
-source_image = "https://static01.nyt.com/images/2025/04/25/00xp-streetview-opening-pgzc-cover/00xp-streetview-opening-pgzc-cover-verticalTwoByThree735.jpg"
+source_image = "images/train/Cars433.png"
 
 model = YOLO(
-    "best.pt"
+    "runs/detect/runs/license_plate_finetuned/weights/best.pt"
 )
 
 results = model.predict(
