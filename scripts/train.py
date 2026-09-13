@@ -5,7 +5,7 @@ model = YOLO("yolo11n.pt")
 
 # Train on your license-plate dataset
 model.train(
-    data="data.yaml",
+    data="../data.yaml",
     epochs=100,
     imgsz=640,
     batch=16,

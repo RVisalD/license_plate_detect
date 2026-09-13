@@ -3,7 +3,7 @@ from ultralytics import YOLO
 source_image = "images/train/Cars433.png"
 
 model = YOLO(
-    "best.pt"
+    "../best.pt"
 )
 
 results = model.predict(

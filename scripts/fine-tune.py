@@ -5,7 +5,7 @@ model = YOLO(
 )
 
 model.train(
-    data="data.yaml",
+    data="../data.yaml",
     epochs=50,
     imgsz=640,
     batch=16,

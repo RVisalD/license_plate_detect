@@ -5,7 +5,7 @@ model = YOLO(
 )
 
 metrics = model.val(
-    data="data.yaml",
+    data="../data.yaml",
     split="test"
 )
 

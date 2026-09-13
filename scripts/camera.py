@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 model = YOLO(
-    "best.pt"
+    "../best.pt"
 )
 
 cap = cv2.VideoCapture(0)
