@@ -1,9 +1,12 @@
+from pathlib import Path
 from ultralytics import YOLO
 import cv2
 
-model = YOLO(
-    "../best.pt"
-)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+MODEL_PATH = PROJECT_ROOT / "best.pt"
+
+model = YOLO(MODEL_PATH)
 
 cap = cv2.VideoCapture(0)
 
