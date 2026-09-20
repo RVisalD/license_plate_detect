@@ -17,3 +17,6 @@ images/
 
 # License Plate Detector Weights
 runs/
+
+# Crop
+cropped/
